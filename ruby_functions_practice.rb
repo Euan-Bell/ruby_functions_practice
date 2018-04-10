@@ -51,3 +51,11 @@ def number_to_short_month_name(month_number)
     return "Sep"
   end
 end
+
+def volume_of_cube(length_of_side)
+  return length_of_side **3
+end
+
+def volume_of_sphere(length_radius)
+  return((4/3.0)*Math::PI*(length_radius**3)).to_i
+end
